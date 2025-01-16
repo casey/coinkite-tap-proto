@@ -1,0 +1,14 @@
+[project]
+name = "cktap"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+  "cbor2>=5.4.1",
+  "click>=8.0.3",
+  "pypng>=0.0.21",
+  "pyqrcode>=1.2.1",
+  "pyscard>=2.0.2",
+  "requests[socks]>=2.26.0"
+]

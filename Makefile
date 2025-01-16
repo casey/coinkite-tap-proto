@@ -20,3 +20,6 @@ $(TARGETS) release: Makefile cktap/* setup.py
 	git add $(TARGETS)
 	git tag -am v$(CUR_VERSION) v$(CUR_VERSION)
 	twine upload $(TARGETS)
+
+run:
+	uv run cli.py

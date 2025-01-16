@@ -1124,4 +1124,7 @@ def upload_artwork(cvc, image, localhost, skip_prompts, init_card, meta, offline
         print("Server says:\n")
         print(resp.text)
 
+if __name__ == '__main__':
+  main()
+
 # EOF
